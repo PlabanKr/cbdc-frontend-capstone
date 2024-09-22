@@ -1,0 +1,22 @@
+.activities-card-main {
+  color: white;
+  background: rgb(47,20,92);
+  background: linear-gradient(307deg, rgba(47,20,92,1) 0%, rgba(160,37,148,1) 100%);
+  padding: 2rem;
+  min-width: 40vw;
+  border-radius: 20px;
+}
+
+.activities-card-header {
+  margin-bottom: 2rem;
+}
+
+.activities-card-activity {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+
+.activities-card-activity-date {
+  color: #9b9b9b;
+}

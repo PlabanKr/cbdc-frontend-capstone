@@ -1,0 +1,12 @@
+.dashboard-component-main {
+  padding: 0rem 2rem 2rem 2rem;
+}
+
+/* .dashboard-component-graph {
+  flex-grow: 1;
+} */
+
+.dashboard-component-activities {
+  display: flex;
+  gap: 1rem;
+}

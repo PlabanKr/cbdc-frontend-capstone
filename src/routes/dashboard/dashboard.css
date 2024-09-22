@@ -1,0 +1,43 @@
+/* 
+  DASHBOARD CSS
+*/
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  /* gap: ; */
+}
+
+/* .dashboard-main {
+  padding: 1rem;
+} */
+
+.dashboard-topbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.25rem 2rem;
+}
+
+.dashboard-topbar-connect-wallet {
+  padding: 0.5rem 1rem;
+  border: 0;
+  font-family: inherit;
+  font-weight: 500;
+  margin: 0 1rem;
+}
+
+.dashboard-topbar-connect-wallet:hover {
+  cursor: pointer;
+}
+
+.dashboard-topbar-logout-button {
+  border: 0;
+  font-size: 1rem;
+  margin: 0 1rem;
+  color: #BA4F4F;
+}
+
+.dashboard-topbar-logout-button:hover {
+  cursor: pointer;
+}
