@@ -1,10 +1,27 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import Dashboard from './routes/dashboard/Dashboard'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./index.css";
+import Balance from "./routes/balance/Balance";
+import Dashboard from "./routes/dashboard/Dashboard";
 
-createRoot(document.getElementById('root')).render(
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <div>Work In Progress</div>,
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard />
+  },
+  {
+    path: "/dashboard/balance",
+    element: <Balance />
+  }
+]);
+
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Dashboard />
-  </StrictMode>,
-)
+    <RouterProvider router={router} />
+  </StrictMode>
+);
